@@ -54,7 +54,7 @@ class User implements UserInterface
      * @var string|null
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $linkedIn;
+    private $linkedIn = "";
 
     public function getId(): ?int
     {
