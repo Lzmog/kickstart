@@ -209,7 +209,7 @@ class User implements UserInterface
      *
      * @return User
      */
-    public function setLinkedIn(?string $linkedIn): User
+    public function setLinkedIn(?string $linkedIn): self
     {
         $this->linkedIn = $linkedIn;
 
